@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #869b5b;
+  text-align: center;
+}
+
+/* Structure */
+#content {
+  background: #777d68;
+  padding: 5px;
+  width: 80%;
+  margin: auto; /* Centers Horizontally */
+  border-radius: 0px;
+  border: 2px solid burlywood;
+}
+
+/* Typography */
+h1 {
+  color: navy;
+}
+h2 {
+  color: darkslategray;
+}
+p {
+  color: lightgoldenrodyellow;
+}
+
+.hidden {
+  display: none;
+}
+
+#array-show {
+  img {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin: 10px;
+    display: inline-block;
+  }
+  margin: 10px;
+  text-align: center;
+}
+
+.carousel-container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden; /* Ensure images don't overflow */
+  height: 400px; /* Set height as needed */
+}
+
+.carousel-slide {
+  width: 100%;
+  height: 100%;
+  background-size: cover; /* Ensure images cover the entire container */
+  background-position: center; /* Center the background image */
+  transition: background-image 0.4s ease-in-out; /* Smooth transition for image change */
+}
+
+.imageFrame {
+  width: 90%;
+  height: 90%;
+}
